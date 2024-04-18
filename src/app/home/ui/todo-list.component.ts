@@ -18,7 +18,15 @@ import {RouterLink} from "@angular/router";
   `,
   imports: [
     RouterLink
-  ]
+  ],
+  styles: [
+    `
+      ul {
+        margin: 0;
+        padding: 1rem;
+      }
+    `,
+  ],
 })
 export class TodoListComponent {
 
